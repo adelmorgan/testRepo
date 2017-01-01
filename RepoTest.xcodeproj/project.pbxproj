@@ -14,6 +14,7 @@
 		FC40A14C1E197DD700B150E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40A14A1E197DD700B150E3 /* LaunchScreen.storyboard */; };
 		FC40A1571E197DD700B150E3 /* RepoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A1561E197DD700B150E3 /* RepoTestTests.swift */; };
 		FC40A1621E197DD700B150E3 /* RepoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A1611E197DD700B150E3 /* RepoTestUITests.swift */; };
+		FC40A1721E19956300B150E3 /* Branch2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A1711E19956300B150E3 /* Branch2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FC40A15D1E197DD700B150E3 /* RepoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40A1611E197DD700B150E3 /* RepoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTestUITests.swift; sourceTree = "<group>"; };
 		FC40A1631E197DD800B150E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC40A1711E19956300B150E3 /* Branch2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FC40A1481E197DD700B150E3 /* Assets.xcassets */,
 				FC40A14A1E197DD700B150E3 /* LaunchScreen.storyboard */,
 				FC40A14D1E197DD700B150E3 /* Info.plist */,
+				FC40A1711E19956300B150E3 /* Branch2ViewController.swift */,
 			);
 			path = RepoTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				FC40A1441E197DD700B150E3 /* ViewController.swift in Sources */,
 				FC40A1421E197DD700B150E3 /* AppDelegate.swift in Sources */,
+				FC40A1721E19956300B150E3 /* Branch2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				FC40A1681E197DD800B150E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC40A1691E197DD800B150E3 /* Build configuration list for PBXNativeTarget "RepoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				FC40A16B1E197DD800B150E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC40A16C1E197DD800B150E3 /* Build configuration list for PBXNativeTarget "RepoTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				FC40A16E1E197DD800B150E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
