@@ -14,6 +14,7 @@
 		FC40A14C1E197DD700B150E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40A14A1E197DD700B150E3 /* LaunchScreen.storyboard */; };
 		FC40A1571E197DD700B150E3 /* RepoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A1561E197DD700B150E3 /* RepoTestTests.swift */; };
 		FC40A1621E197DD700B150E3 /* RepoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A1611E197DD700B150E3 /* RepoTestUITests.swift */; };
+		FC40A1701E19950900B150E3 /* TestBranch2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40A16F1E19950900B150E3 /* TestBranch2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FC40A15D1E197DD700B150E3 /* RepoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40A1611E197DD700B150E3 /* RepoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTestUITests.swift; sourceTree = "<group>"; };
 		FC40A1631E197DD800B150E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC40A16F1E19950900B150E3 /* TestBranch2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBranch2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FC40A1481E197DD700B150E3 /* Assets.xcassets */,
 				FC40A14A1E197DD700B150E3 /* LaunchScreen.storyboard */,
 				FC40A14D1E197DD700B150E3 /* Info.plist */,
+				FC40A16F1E19950900B150E3 /* TestBranch2ViewController.swift */,
 			);
 			path = RepoTest;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC40A1441E197DD700B150E3 /* ViewController.swift in Sources */,
+				FC40A1701E19950900B150E3 /* TestBranch2ViewController.swift in Sources */,
 				FC40A1421E197DD700B150E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
